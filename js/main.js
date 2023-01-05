@@ -144,8 +144,15 @@ food.forEach(e=>{
 });
     increase.addEventListener("click",function(){
         input1.value++;  
+
+     let name=document.querySelector(".name");
+
+    let para4=document.createElement("p");
+    para4.innerHTML=e.name;
+    name.appendChild(para4);
 });
 
+    
 })
 
 
